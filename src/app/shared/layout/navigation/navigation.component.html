@@ -1,0 +1,10 @@
+<nav>
+    <div class="menu">
+        <div class="menu-item" *ngFor="let item of menu; let i=index" [ngClass]="{'active': menu[i].active==true}">
+            <a routerLink="{{item.url}}">
+                <mat-icon aria-hidden="false">{{item.icon}}</mat-icon>
+                <span>{{item.label}}</span>
+            </a>
+        </div>
+    </div>
+</nav>

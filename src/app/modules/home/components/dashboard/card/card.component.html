@@ -1,0 +1,9 @@
+<mat-card fxFlex fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="10px" matElevation
+    routerLink="{{item.route}}">
+    <div class="image" fxFlex="80">
+        <img mat-card-image [src]="item.imagePath">
+    </div>
+    <mat-card-header fxFlex>
+        <mat-card-title>{{item.title}}</mat-card-title>
+    </mat-card-header>
+</mat-card>
