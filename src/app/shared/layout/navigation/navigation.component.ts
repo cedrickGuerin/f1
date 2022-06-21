@@ -38,6 +38,12 @@ export class NavigationComponent implements OnInit {
         url: '/classement',
         active: false,
         icon: 'list'
+      },
+      {
+        label: 'Palmares',
+        url: '/palmares',
+        active: false,
+        icon: 'star'
       }
     ];
   }

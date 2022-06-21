@@ -15,6 +15,10 @@ const routes: Routes = [
     loadChildren: () => import('./modules/classement/classement.module').then(mod => mod.ClassementModule),
   },
   {
+    path: 'palmares',
+    loadChildren: () => import('./modules/palmares/palmares.module').then(mod => mod.PalmaresModule),
+  },
+  {
     path: '**',
     redirectTo: ''
   }
