@@ -7,13 +7,14 @@
                     Pilote
                 </th>
                 <td mat-cell *matCellDef="let element">
-                    <span><img style="width:20px;" src="{{element.drapeau}}" alt="drapeau"/> </span>
-                     <span><b>&nbsp;{{element.nom}}</b> &nbsp;#{{element.numero}}</span>
-                     <p class="team"> {{element.ecurie}} </p> 
-                    </td>
+                    <img src="{{element.picto}}" style="width:40px" alt="pilote"/>
+                    <span><b>&nbsp;{{element.nom}}</b> &nbsp;<span><img style="width:20px;" src="{{element.drapeau}}"
+                                alt="drapeau" /> </span> &nbsp;#{{element.numero}}</span>
+                    <p class="team"> {{element.ecurie}} </p>
+                </td>
             </ng-container>
 
-            
+
 
             <ng-container matColumnDef="victoires">
                 <th mat-header-cell *matHeaderCellDef>
@@ -34,6 +35,27 @@
                     Points
                 </th>
                 <td mat-cell *matCellDef="let element"> {{element.points}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="nbEtoiles">
+                <th mat-header-cell *matHeaderCellDef>
+                    Nb Etoiles
+                </th>
+                <td mat-cell *matCellDef="let element"> {{element.nbEtoiles}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="nbParticipations">
+                <th mat-header-cell *matHeaderCellDef>
+                    Nb Participations
+                </th>
+                <td mat-cell *matCellDef="let element"> {{element.nbParticipations}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="pointLicence">
+                <th mat-header-cell *matHeaderCellDef>
+                    Pts Licence
+                </th>
+                <td mat-cell *matCellDef="let element"> {{element.pointLicence}} </td>
             </ng-container>
 
             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
