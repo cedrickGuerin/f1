@@ -1,23 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HomeComponent } from './home.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { ClassementComponent } from './classement.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: ClassementComponent,
   }
 ];
 
 @NgModule({
   declarations: [
-    HomeComponent
+    ClassementComponent
   ],
   imports: [
     RouterModule.forChild(routes),
     SharedModule
   ],
 })
-export class HomeModule { }
+export class ClassementModule { }

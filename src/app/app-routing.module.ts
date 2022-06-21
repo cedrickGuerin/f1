@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'classement',
-    loadChildren: () => import('./modules/home/home.module').then(mod => mod.HomeModule),
+    loadChildren: () => import('./modules/classement/classement.module').then(mod => mod.ClassementModule),
   },
   {
     path: '**',

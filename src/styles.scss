@@ -8,8 +8,8 @@
 html,
 body {
   height: 100%;
+  
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -17,9 +17,20 @@ body {
     font-size: 1.5em;
     background-color: #000;
     color:white;
+  /* background-image: url("./assets/img/logos/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 .app {
     display: flex;
     flex-direction: column;
     height: 100%;
+  }
+
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  
   }
