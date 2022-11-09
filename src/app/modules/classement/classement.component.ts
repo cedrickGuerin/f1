@@ -103,7 +103,7 @@ export class ClassementComponent {
             victoires:1,
             nbEtoiles: 0,
             nbParticipations: 2,
-            pointLicence: 12
+            pointLicence: 11
         },
     ];
 
