@@ -25,8 +25,7 @@ export class ClassementComponent {
             victoires:9,
             nbEtoiles: 3,
             nbParticipations: 3,
-            pointLicence: 12,
-            ratioPoint: 115
+            pointLicence: 12
         },
         {
             nom: 'Jordan Sibinski',
@@ -39,8 +38,7 @@ export class ClassementComponent {
             victoires:0,
             nbEtoiles: 0,
             nbParticipations: 3,
-            pointLicence: 12,
-            ratioPoint: 52
+            pointLicence: 12
         },
         {
             nom: 'Ben Bruillon',
@@ -53,8 +51,7 @@ export class ClassementComponent {
             victoires:0,
             nbEtoiles: 0,
             nbParticipations: 3,
-            pointLicence: 12,
-            ratioPoint: 23
+            pointLicence: 12
         },
         {
             nom: 'Alex Monteiro',
@@ -67,8 +64,7 @@ export class ClassementComponent {
             victoires:0,
             nbEtoiles: 0,
             nbParticipations: 2,
-            pointLicence: 12,
-            ratioPoint: 28.5
+            pointLicence: 12
         },
         {
             nom: 'Grey Gooze',
@@ -81,8 +77,7 @@ export class ClassementComponent {
             victoires:1,
             nbEtoiles: 0,
             nbParticipations: 3,
-            pointLicence: 12,
-            ratioPoint: 34
+            pointLicence: 12
         },
         {
             nom: 'Vlad Boenko',
@@ -95,8 +90,7 @@ export class ClassementComponent {
             victoires:0,
             nbEtoiles: 0,
             nbParticipations: 3,
-            pointLicence: 12,
-            ratioPoint: 23
+            pointLicence: 12
         },
         {
             nom: 'Cedrick Guerin',
@@ -109,8 +103,7 @@ export class ClassementComponent {
             victoires:2,
             nbEtoiles: 0,
             nbParticipations: 3,
-            pointLicence: 11,
-            ratioPoint: 47
+            pointLicence: 11
         },
     ];
 
