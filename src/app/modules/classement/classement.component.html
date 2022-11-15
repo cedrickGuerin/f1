@@ -57,6 +57,13 @@
                 <td mat-cell *matCellDef="let element"> {{element.pointLicence}} </td>
             </ng-container>
 
+            <ng-container matColumnDef="ratioParticipation">
+                <th mat-header-cell *matHeaderCellDef>
+                    Points / Session
+                </th>
+                <td mat-cell *matCellDef="let element"> {{element.ratioPoint}} </td>
+            </ng-container>
+
             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
             <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
         </table>

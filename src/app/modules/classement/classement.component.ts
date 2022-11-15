@@ -10,7 +10,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 export class ClassementComponent {
 
     dataSource: any[] = [];
-    displayedColumns: string[] = ['nom', 'points', 'victoires', 'podium', 'nbEtoiles', 'nbParticipations', 'pointLicence'];
+    displayedColumns: string[] = ['nom', 'points', 'victoires', 'podium', 'nbEtoiles', 'nbParticipations', 'pointLicence', 'ratioParticipation'];
 
     constructor() {
         this.dataSource = [
@@ -20,12 +20,13 @@ export class ClassementComponent {
             numero: "23",
             ecurie: 'Haas F1 Team',
             drapeau: '../../../assets/img/flags/israel.JPG',
-            points: 178,
-            podium: 5,
-            victoires:5,
-            nbEtoiles: 2,
-            nbParticipations: 2,
-            pointLicence: 12
+            points: 343,
+            podium: 10,
+            victoires:9,
+            nbEtoiles: 3,
+            nbParticipations: 3,
+            pointLicence: 12,
+            ratioPoint: 115
         },
         {
             nom: 'Jordan Sibinski',
@@ -33,12 +34,13 @@ export class ClassementComponent {
             numero: "27",
             ecurie: 'Alfa Romeo Racing ORLEN',
             drapeau: '../../../assets/img/flags/pologne.JPG',
-            points: 122,
-            podium: 7,
+            points: 154,
+            podium: 8,
             victoires:0,
             nbEtoiles: 0,
-            nbParticipations: 2,
-            pointLicence: 12
+            nbParticipations: 3,
+            pointLicence: 12,
+            ratioPoint: 52
         },
         {
             nom: 'Ben Bruillon',
@@ -46,12 +48,13 @@ export class ClassementComponent {
             numero: "11",
             ecurie: 'McLaren F1 Team',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 31,
-            podium: 1,
+            points: 68,
+            podium: 2,
             victoires:0,
             nbEtoiles: 0,
-            nbParticipations: 2,
-            pointLicence: 12
+            nbParticipations: 3,
+            pointLicence: 12,
+            ratioPoint: 23
         },
         {
             nom: 'Alex Monteiro',
@@ -59,12 +62,13 @@ export class ClassementComponent {
             numero: "9",
             ecurie: 'Aston Martin Cognizant F1 Team',
             drapeau: '../../../assets/img/flags/portugal.JPG',
-            points: 12,
-            podium: 0,
+            points: 57,
+            podium: 2,
             victoires:0,
             nbEtoiles: 0,
-            nbParticipations: 1,
-            pointLicence: 12
+            nbParticipations: 2,
+            pointLicence: 12,
+            ratioPoint: 28.5
         },
         {
             nom: 'Grey Gooze',
@@ -72,12 +76,13 @@ export class ClassementComponent {
             numero: "10",
             ecurie: 'Scuderia AlphaTauri Honda',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 91,
+            points: 102,
             podium: 2,
             victoires:1,
             nbEtoiles: 0,
-            nbParticipations: 2,
-            pointLicence: 12
+            nbParticipations: 3,
+            pointLicence: 12,
+            ratioPoint: 34
         },
         {
             nom: 'Vlad Boenko',
@@ -85,12 +90,13 @@ export class ClassementComponent {
             numero: "18",
             ecurie: 'Red Bull Racing Honda',
             drapeau: '../../../assets/img/flags/ukraine.JPG',
-            points: 30,
-            podium: 2,
+            points: 69,
+            podium: 3,
             victoires:0,
             nbEtoiles: 0,
-            nbParticipations: 2,
-            pointLicence: 12
+            nbParticipations: 3,
+            pointLicence: 12,
+            ratioPoint: 23
         },
         {
             nom: 'Cedrick Guerin',
@@ -98,12 +104,13 @@ export class ClassementComponent {
             numero: "7",
             ecurie: 'Scuderia Mission Winnow Ferrari',
             drapeau: '../../../assets/img/flags/espagne.JPG',
-            points: 72,
-            podium: 3,
-            victoires:1,
+            points: 139,
+            podium: 6,
+            victoires:2,
             nbEtoiles: 0,
-            nbParticipations: 2,
-            pointLicence: 11
+            nbParticipations: 3,
+            pointLicence: 11,
+            ratioPoint: 47
         },
     ];
 
