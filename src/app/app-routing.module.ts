@@ -19,6 +19,10 @@ const routes: Routes = [
     loadChildren: () => import('./modules/palmares/palmares.module').then(mod => mod.PalmaresModule),
   },
   {
+    path: 'derniere-session',
+    loadChildren: () => import('./modules/derniere-session/derniere-session.module').then(mod => mod.DerniereSessionModule),
+  },
+  {
     path: '**',
     redirectTo: ''
   }

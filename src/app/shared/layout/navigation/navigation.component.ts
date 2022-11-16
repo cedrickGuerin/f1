@@ -44,6 +44,12 @@ export class NavigationComponent implements OnInit {
         url: '/palmares',
         active: false,
         icon: 'star'
+      },
+      {
+        label: 'Dernière session',
+        url: '/derniere-session',
+        active: false,
+        icon: 'watch_later'
       }
     ];
   }
