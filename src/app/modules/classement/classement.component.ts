@@ -20,11 +20,11 @@ export class ClassementComponent {
             numero: "23",
             ecurie: 'Haas F1 Team',
             drapeau: '../../../assets/img/flags/israel.JPG',
-            points: 423,
-            podium: 12,
-            victoires:10,
-            nbEtoiles: 3,
-            nbParticipations: 4,
+            points: 530,
+            podium: 14,
+            victoires:11,
+            nbEtoiles: 4,
+            nbParticipations: 5,
             pointLicence: 12
         },
         {
@@ -33,12 +33,12 @@ export class ClassementComponent {
             numero: "27",
             ecurie: 'Alfa Romeo Racing ORLEN',
             drapeau: '../../../assets/img/flags/pologne.JPG',
-            points: 226,
-            podium: 10,
+            points: 251,
+            podium: 11,
             victoires:0,
             nbEtoiles: 0,
-            nbParticipations: 4,
-            pointLicence: 12
+            nbParticipations: 5,
+            pointLicence: 10
         },
         {
             nom: 'Ben Bruillon',
@@ -46,11 +46,11 @@ export class ClassementComponent {
             numero: "11",
             ecurie: 'McLaren F1 Team',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 80,
-            podium: 2,
+            points: 127,
+            podium: 4,
             victoires:0,
             nbEtoiles: 0,
-            nbParticipations: 4,
+            nbParticipations: 5,
             pointLicence: 12
         },
         {
@@ -72,12 +72,12 @@ export class ClassementComponent {
             numero: "10",
             ecurie: 'Scuderia AlphaTauri Honda',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 123,
-            podium: 3,
+            points: 167,
+            podium: 4,
             victoires:1,
             nbEtoiles: 0,
-            nbParticipations: 4,
-            pointLicence: 12
+            nbParticipations: 5,
+            pointLicence: 11
         },
         {
             nom: 'Vlad Boenko',
@@ -89,7 +89,7 @@ export class ClassementComponent {
             podium: 4,
             victoires:0,
             nbEtoiles: 0,
-            nbParticipations: 4,
+            nbParticipations: 5,
             pointLicence: 12
         },
         {
@@ -98,11 +98,11 @@ export class ClassementComponent {
             numero: "7",
             ecurie: 'Scuderia Mission Winnow Ferrari',
             drapeau: '../../../assets/img/flags/espagne.JPG',
-            points: 222,
-            podium: 9,
-            victoires:4,
-            nbEtoiles: 1,
-            nbParticipations: 4,
+            points: 329,
+            podium: 12,
+            victoires:7,
+            nbEtoiles: 2,
+            nbParticipations: 5,
             pointLicence: 11
         },
     ];
