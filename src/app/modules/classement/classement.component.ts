@@ -20,10 +20,10 @@ export class ClassementComponent {
             numero: "23",
             ecurie: 'Haas F1 Team',
             drapeau: '../../../assets/img/flags/israel.JPG',
-            points: 530,
+            points: 502,
             podium: 14,
             victoires:11,
-            nbEtoiles: 4,
+            nbEtoiles: 3,
             nbParticipations: 5,
             pointLicence: 12
         },
