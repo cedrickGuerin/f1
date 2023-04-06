@@ -20,11 +20,11 @@ export class ClassementComponent {
             numero: "23",
             ecurie: 'Haas F1 Team',
             drapeau: '../../../assets/img/flags/israel.JPG',
-            points: 926,
-            podium: 28,
-            victoires:15,
-            nbEtoiles: 7,
-            nbParticipations: 9,
+            points: 1023,
+            podium: 31,
+            victoires:17,
+            nbEtoiles: 8,
+            nbParticipations: 10,
             pointLicence: 12
         },
         {
@@ -33,11 +33,11 @@ export class ClassementComponent {
             numero: "27",
             ecurie: 'Alfa Romeo Racing ORLEN',
             drapeau: '../../../assets/img/flags/pologne.JPG',
-            points: 485,
-            podium: 20,
-            victoires:2,
+            points: 558,
+            podium: 22,
+            victoires:3,
             nbEtoiles: 0,
-            nbParticipations: 9,
+            nbParticipations: 10,
             pointLicence: 10
         },
         {
@@ -59,11 +59,11 @@ export class ClassementComponent {
             numero: "9",
             ecurie: 'Aston Martin Cognizant F1 Team',
             drapeau: '../../../assets/img/flags/portugal.JPG',
-            points: 248,
-            podium: 11,
+            points: 271,
+            podium: 12,
             victoires:1,
             nbEtoiles: 0,
-            nbParticipations: 6,
+            nbParticipations: 7,
             pointLicence: 12
         },
         {
@@ -72,11 +72,11 @@ export class ClassementComponent {
             numero: "10",
             ecurie: 'Scuderia AlphaTauri Honda',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 507,
-            podium: 11,
+            points: 527,
+            podium: 12,
             victoires:6,
             nbEtoiles: 0,
-            nbParticipations: 10,
+            nbParticipations: 11,
             pointLicence: 11
         },
         {
@@ -98,11 +98,11 @@ export class ClassementComponent {
             numero: "7",
             ecurie: 'Scuderia Mission Winnow Ferrari',
             drapeau: '../../../assets/img/flags/espagne.JPG',
-            points: 536,
-            podium: 20,
-            victoires:9,
+            points: 569,
+            podium: 21,
+            victoires:10,
             nbEtoiles: 3,
-            nbParticipations: 9,
+            nbParticipations: 10,
             pointLicence: 11
         },
     ];
