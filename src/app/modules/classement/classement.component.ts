@@ -20,11 +20,11 @@ export class ClassementComponent {
             numero: "23",
             ecurie: 'Haas F1 Team',
             drapeau: '../../../assets/img/flags/israel.JPG',
-            points: 1023,
-            podium: 31,
-            victoires:17,
-            nbEtoiles: 8,
-            nbParticipations: 10,
+            points: 1166,
+            podium: 36,
+            victoires:19,
+            nbEtoiles: 9,
+            nbParticipations: 11,
             pointLicence: 12
         },
         {
@@ -46,11 +46,11 @@ export class ClassementComponent {
             numero: "11",
             ecurie: 'McLaren F1 Team',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 296,
-            podium: 8,
-            victoires:1,
+            points: 346,
+            podium: 10,
+            victoires:3,
             nbEtoiles: 0,
-            nbParticipations: 10,
+            nbParticipations: 11,
             pointLicence: 12
         },
         {
@@ -72,11 +72,11 @@ export class ClassementComponent {
             numero: "10",
             ecurie: 'Scuderia AlphaTauri Honda',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 527,
-            podium: 12,
-            victoires:6,
+            points: 621,
+            podium: 16,
+            victoires:7,
             nbEtoiles: 0,
-            nbParticipations: 11,
+            nbParticipations: 12,
             pointLicence: 11
         },
         {
@@ -85,11 +85,11 @@ export class ClassementComponent {
             numero: "18",
             ecurie: 'Red Bull Racing Honda',
             drapeau: '../../../assets/img/flags/ukraine.JPG',
-            points: 279,
+            points: 297,
             podium: 9,
             victoires:3,
             nbEtoiles: 0,
-            nbParticipations: 9,
+            nbParticipations: 10,
             pointLicence: 12
         },
         {
@@ -98,11 +98,11 @@ export class ClassementComponent {
             numero: "7",
             ecurie: 'Scuderia Mission Winnow Ferrari',
             drapeau: '../../../assets/img/flags/espagne.JPG',
-            points: 569,
-            podium: 21,
+            points: 625,
+            podium: 22,
             victoires:10,
             nbEtoiles: 3,
-            nbParticipations: 10,
+            nbParticipations: 11,
             pointLicence: 11
         },
     ];
