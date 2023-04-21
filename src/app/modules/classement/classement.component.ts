@@ -20,12 +20,12 @@ export class ClassementComponent {
             numero: "23",
             ecurie: 'Haas F1 Team',
             drapeau: '../../../assets/img/flags/israel.JPG',
-            points: 1166,
-            podium: 36,
-            victoires:19,
-            nbEtoiles: 9,
-            nbParticipations: 11,
-            pointLicence: 12
+            points: 1269,
+            podium: 39,
+            victoires:20,
+            nbEtoiles: 10,
+            nbParticipations: 12,
+            pointLicence: 11
         },
         {
             nom: 'Jordan Sibinski',
@@ -46,11 +46,11 @@ export class ClassementComponent {
             numero: "11",
             ecurie: 'McLaren F1 Team',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 346,
-            podium: 10,
-            victoires:3,
+            points: 384,
+            podium: 12,
+            victoires:4,
             nbEtoiles: 0,
-            nbParticipations: 11,
+            nbParticipations: 12,
             pointLicence: 12
         },
         {
@@ -59,11 +59,11 @@ export class ClassementComponent {
             numero: "9",
             ecurie: 'Aston Martin Cognizant F1 Team',
             drapeau: '../../../assets/img/flags/portugal.JPG',
-            points: 271,
-            podium: 12,
-            victoires:1,
+            points: 362,
+            podium: 15,
+            victoires:3,
             nbEtoiles: 0,
-            nbParticipations: 7,
+            nbParticipations: 8,
             pointLicence: 12
         },
         {
@@ -72,11 +72,11 @@ export class ClassementComponent {
             numero: "10",
             ecurie: 'Scuderia AlphaTauri Honda',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 621,
-            podium: 16,
+            points: 671,
+            podium: 17,
             victoires:7,
             nbEtoiles: 0,
-            nbParticipations: 12,
+            nbParticipations: 13,
             pointLicence: 11
         },
         {
@@ -85,11 +85,11 @@ export class ClassementComponent {
             numero: "18",
             ecurie: 'Red Bull Racing Honda',
             drapeau: '../../../assets/img/flags/ukraine.JPG',
-            points: 297,
+            points: 292,
             podium: 9,
             victoires:3,
             nbEtoiles: 0,
-            nbParticipations: 10,
+            nbParticipations: 11,
             pointLicence: 12
         },
         {
@@ -98,11 +98,11 @@ export class ClassementComponent {
             numero: "7",
             ecurie: 'Scuderia Mission Winnow Ferrari',
             drapeau: '../../../assets/img/flags/espagne.JPG',
-            points: 625,
+            points: 636,
             podium: 22,
             victoires:10,
             nbEtoiles: 3,
-            nbParticipations: 11,
+            nbParticipations: 12,
             pointLicence: 11
         },
     ];
