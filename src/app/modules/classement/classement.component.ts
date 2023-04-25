@@ -20,11 +20,11 @@ export class ClassementComponent {
             numero: "23",
             ecurie: 'Haas F1 Team',
             drapeau: '../../../assets/img/flags/israel.JPG',
-            points: 1269,
-            podium: 39,
-            victoires:20,
+            points: 1368,
+            podium: 42,
+            victoires:21,
             nbEtoiles: 10,
-            nbParticipations: 12,
+            nbParticipations: 13,
             pointLicence: 11
         },
         {
@@ -33,11 +33,11 @@ export class ClassementComponent {
             numero: "27",
             ecurie: 'Alfa Romeo Racing ORLEN',
             drapeau: '../../../assets/img/flags/pologne.JPG',
-            points: 558,
-            podium: 22,
-            victoires:3,
-            nbEtoiles: 0,
-            nbParticipations: 10,
+            points: 683,
+            podium: 26,
+            victoires:5,
+            nbEtoiles: 1,
+            nbParticipations: 11,
             pointLicence: 10
         },
         {
@@ -46,11 +46,11 @@ export class ClassementComponent {
             numero: "11",
             ecurie: 'McLaren F1 Team',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 384,
-            podium: 12,
+            points: 420,
+            podium: 13,
             victoires:4,
             nbEtoiles: 0,
-            nbParticipations: 12,
+            nbParticipations: 13,
             pointLicence: 12
         },
         {
@@ -59,11 +59,11 @@ export class ClassementComponent {
             numero: "9",
             ecurie: 'Aston Martin Cognizant F1 Team',
             drapeau: '../../../assets/img/flags/portugal.JPG',
-            points: 362,
-            podium: 15,
+            points: 405,
+            podium: 16,
             victoires:3,
             nbEtoiles: 0,
-            nbParticipations: 8,
+            nbParticipations: 9,
             pointLicence: 12
         },
         {
@@ -72,12 +72,12 @@ export class ClassementComponent {
             numero: "10",
             ecurie: 'Scuderia AlphaTauri Honda',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 671,
-            podium: 17,
-            victoires:7,
+            points: 763,
+            podium: 19,
+            victoires:9,
             nbEtoiles: 0,
-            nbParticipations: 13,
-            pointLicence: 11
+            nbParticipations: 14,
+            pointLicence: 10
         },
         {
             nom: 'Vlad Boenko',
@@ -85,11 +85,11 @@ export class ClassementComponent {
             numero: "18",
             ecurie: 'Red Bull Racing Honda',
             drapeau: '../../../assets/img/flags/ukraine.JPG',
-            points: 292,
-            podium: 9,
+            points: 314,
+            podium: 10,
             victoires:3,
             nbEtoiles: 0,
-            nbParticipations: 11,
+            nbParticipations: 12,
             pointLicence: 12
         },
         {
@@ -98,11 +98,11 @@ export class ClassementComponent {
             numero: "7",
             ecurie: 'Scuderia Mission Winnow Ferrari',
             drapeau: '../../../assets/img/flags/espagne.JPG',
-            points: 636,
+            points: 645,
             podium: 22,
             victoires:10,
             nbEtoiles: 3,
-            nbParticipations: 12,
+            nbParticipations: 13,
             pointLicence: 11
         },
     ];
