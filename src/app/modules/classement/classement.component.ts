@@ -46,7 +46,7 @@ export class ClassementComponent {
             numero: "11",
             ecurie: 'McLaren F1 Team',
             drapeau: '../../../assets/img/flags/france.JPG',
-            points: 613,
+            points: 543,
             podium: 17,
             victoires:6,
             nbEtoiles: 0,
