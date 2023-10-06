@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { FullscreenOverlayContainer, OverlayContainer } from '@angular/cdk/overlay';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { FullscreenOverlayContainer, OverlayContainer } from '@angular/cdk/overl
   imports: [
     BrowserModule,
     AppRoutingModule,
+    IvyCarouselModule,
     BrowserAnimationsModule,
     SharedModule,
   ],

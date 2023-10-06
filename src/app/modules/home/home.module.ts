@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+
 const routes: Routes = [
   {
     path: '',
@@ -17,7 +19,8 @@ const routes: Routes = [
   ],
   imports: [
     RouterModule.forChild(routes),
-    SharedModule
+    SharedModule,
+    IvyCarouselModule
   ],
 })
 export class HomeModule { }
