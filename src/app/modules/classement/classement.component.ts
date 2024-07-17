@@ -382,6 +382,9 @@ export class ClassementComponent {
     this.dataSource3.forEach((el) => {
       if (el.nbParticipations !== 0) el.ratio = el.points / el.nbParticipations;
     });
+    this.dataSource3 = this.dataSource3.sort((a, b) => {
+      return (a.ratio < b.ratio ? -1 : 1) * -1;
+    });
 
     this.dataSource2 = this.dataSource2.sort((a, b) => {
       return (a.ratio < b.ratio ? -1 : 1) * -1;
